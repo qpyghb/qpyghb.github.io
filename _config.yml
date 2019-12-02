@@ -94,12 +94,10 @@ theme: hexo-theme-matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type: 'git'
-#   repo: https://github.com/qpyghb/qpyghb.github.io.git
-#   branch: master
-eploy:
-   type: ''
+deploy:
+  type: 'git'
+  repo: https://github.com/qpyghb/qpyghb.github.io.git
+  branch: master
 
 githubEmojis:
   enable: true
