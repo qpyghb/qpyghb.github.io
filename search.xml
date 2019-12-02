@@ -4,11 +4,24 @@
   
     
     <entry>
-      <title>tags</title>
-      <link href="/2019/12/02/tags/"/>
-      <url>/2019/12/02/tags/</url>
+      <title>Hexo server 开启错误</title>
+      <link href="/2019/12/02/hexo-server-kai-qi-cuo-wu/"/>
+      <url>/2019/12/02/hexo-server-kai-qi-cuo-wu/</url>
       
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>4000端口被占用</p><p><img src="https://raw.githubusercontent.com/qpyghb/GraphBed/master/img/20191202081531.png" alt=""></p><h2 id="查看占用并关闭端口"><a href="#查看占用并关闭端口" class="headerlink" title="查看占用并关闭端口"></a>查看占用并关闭端口</h2><pre><code>sudo lsof -i :4000sudo kill -9 1929sudo kill -9 11058</code></pre><p><img src="https://raw.githubusercontent.com/qpyghb/GraphBed/master/img/20191202081013.png" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Error Deployer not found:git</title>
+      <link href="/2019/12/02/error-deployer-not-found-git/"/>
+      <url>/2019/12/02/error-deployer-not-found-git/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Hexo部署报错"><a href="#Hexo部署报错" class="headerlink" title="Hexo部署报错"></a>Hexo部署报错</h2><p><img src="https://raw.githubusercontent.com/qpyghb/GraphBed/master/img/20191202080224.png" alt=""></p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><pre><code>npm install --save hexo-deployer-git</code></pre><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><blockquote><p><a href="https://blog.csdn.net/weixin_36401046/article/details/52940313" target="_blank" rel="noopener">hexo d后 ERROR Deployer not found: git</a></p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       

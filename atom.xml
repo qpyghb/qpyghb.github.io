@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/qpyghb/qpyghb.github.io.git/"/>
-  <updated>2019-12-01T23:44:45.285Z</updated>
+  <updated>2019-12-02T00:16:06.000Z</updated>
   <id>https://github.com/qpyghb/qpyghb.github.io.git/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>tags</title>
-    <link href="https://github.com/qpyghb/qpyghb.github.io.git/2019/12/02/tags/"/>
-    <id>https://github.com/qpyghb/qpyghb.github.io.git/2019/12/02/tags/</id>
-    <published>2019-12-01T23:44:45.000Z</published>
-    <updated>2019-12-01T23:44:45.285Z</updated>
+    <title>Hexo server 开启错误</title>
+    <link href="https://github.com/qpyghb/qpyghb.github.io.git/2019/12/02/hexo-server-kai-qi-cuo-wu/"/>
+    <id>https://github.com/qpyghb/qpyghb.github.io.git/2019/12/02/hexo-server-kai-qi-cuo-wu/</id>
+    <published>2019-12-02T00:11:00.000Z</published>
+    <updated>2019-12-02T00:16:06.000Z</updated>
     
     <summary type="html">
     
@@ -29,11 +29,31 @@
       
         
         
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
+          &lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;4000端口被占用&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Error Deployer not found:git</title>
+    <link href="https://github.com/qpyghb/qpyghb.github.io.git/2019/12/02/error-deployer-not-found-git/"/>
+    <id>https://github.com/qpyghb/qpyghb.github.io.git/2019/12/02/error-deployer-not-found-git/</id>
+    <published>2019-12-02T00:03:22.000Z</published>
+    <updated>2019-12-02T00:05:44.213Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Hexo部署报错&quot;&gt;&lt;a href=&quot;#Hexo部署报错&quot; class=&quot;headerlink&quot; title=&quot;Hexo部署报错&quot;&gt;&lt;/a&gt;Hexo部署报错&lt;/h2&gt;&lt;p&gt;&lt;img
         
       
     
